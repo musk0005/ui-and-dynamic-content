@@ -1,0 +1,71 @@
+
+.main{
+	width: 70%;
+	margin: 0 auto;
+	background-image: url("wood.jpg");
+	padding: 1rem;
+
+}
+i{
+	color: white;
+	margin-top: 1rem;
+	margin-bottom: 4rem;
+	padding: 0 2rem;
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+p{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	font-family: arial;
+	
+}
+button{
+	width: 80%;
+	height: 2.5rem;
+	font-family: arial;
+	background-color: lightblue;
+
+}
+input{
+	width: 80%;
+	height: 2rem;
+	border: lightblue 2px solid;
+	margin-bottom: 1rem;
+
+}
+h5,ul{
+	color: white;
+	font-size: 28px;
+
+}
+
+#dynamic-content{
+	list-style-image:url(arrow.png) ;
+	line-height: 3rem;
+	border-bottom: 1px solid white;
+}
+
+#dynamic-content{
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 35rem) {
+	.main{
+		min-width: 90%;
+	}
+
+	h1{
+	font-size: 60px;
+	
+	}
+	p{
+		font-size: 20px;
+	}
+}
