@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercise - practice handling events</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/87a587d109.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="main">
+        <header masthead="">
+            <center><i class="fa-solid fa-bucket fa-10x "></i></center>
+            <h1>BUY</h1>
+            <h1>GROCERIES</h1>
+            <p>What you need to buy today?</p>
+        </header>
+        <div class="dynamic-content"></div>
+        <center><input type="text" id="user-input" placeholder="your item here..."></center>
+        <center><button id="add" onclick="addui()">ADD ITEM</button></center>
+        <ul id="dynamic-content"></ul>
+
+        <h5 class="errormsg" id="error"></h5>
+
+        
+        <footer>
+            <center>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzGslbLzdDDBszfswZZDXJTfMbSL"><i class="fa-solid fa-envelope fa-2x"></i></a>
+            </center>
+        </footer>
+    </div>
+        <script src="main.js"></script>
+    </body>
+</html>
